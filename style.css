@@ -1,0 +1,294 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f0e9e1 ;
+}
+
+.navbar .navbar-brand img{
+  width: auto;
+  height: 40px;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+
+nav li a{
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+  margin-top: auto;
+  color: #b22222;
+}
+.nav-link:hover{
+  text-decoration: none ;
+ color: antiquewhite;
+}
+
+.navbar form{
+  width: 30%;  } 
+
+nav .right {
+  padding-left: 8rem;
+  font-size: 20px;
+  text-align: center;
+
+} 
+
+@media screen and (max-width:680px) {
+  .navbar form{
+    width: 100%;
+  }
+}
+/* BANNER SECTION */
+.banner_section {
+  width: 100%;
+  height: 50vh;
+  padding-top: 10px;
+  background-color: #b22222;
+  color: #ffffff;
+}
+
+.banner_div {
+  display: flex;
+}
+
+
+
+@media screen and (max-width:680px) {
+
+  .banner_section .row .col-sm-4 img{
+    display: none;
+  }
+
+  .banner_section{
+    width: auto;
+    height: 65vh;
+  } 
+}
+/* .banner_section .left {
+  display: block;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+} */
+
+.banner_section .left h4 {
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+}
+
+.banner_section .left h1 {
+  font-family: Poppins;
+}
+
+.banner_section .left p {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 17px;
+  line-height: 2;
+  padding: 10px 20px 10px 20px;
+}
+
+.banner_section .left button {
+  border-radius: 50px;
+}
+/* .banner_section .right {
+  width: 40%;
+  height: 50vh;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+} */
+
+/* .banner_section .right img {
+  width: 300px;
+  height: auto;
+  padding: 50px 60px 15px 20px;
+} */
+
+/* FACILITY SECTION */
+.facility_section {
+  margin-top: 6rem;
+  align-items: center;
+  justify-items: center;
+}
+.facility_section .card {
+  /* margin-left: 10vh; */
+  justify-content: center;
+}
+
+.facility_section .row {
+  justify-content: center;
+}
+
+.facility_section .row .card {
+  margin-right: 10px;
+}
+
+.facility_section .row h5 {
+  color: #b22222;
+}
+@media screen and (max-width: 600px) {
+  .facility_section .card {
+    margin-left: 0px;
+  }
+  .facility_section .row .card img{
+    width: 120px;
+    height: auto;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    .facility_section .row .card h5{
+      text-align: center;
+      font-size: 20px;
+    }
+}
+
+/* POPULAR CLASS SECTION */
+
+.popular_section {
+  margin-top: 6rem;
+}
+
+.popular_section .head_para {
+  font-family: Italiana sans-serif;
+  font-size: larger;
+  font-weight: 300;
+  color: #afbdaf;
+}
+
+.popular_section h6 {
+  font-size: 4rem;
+  font-family: "Tangerine", serif;
+  color: #b22222;
+}
+
+.popular_section .row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popular_section .row h5 {
+  color: #b22222;
+}
+
+.popular_section .row .btn {
+  border-radius: 50px;
+}
+
+/* TEACHER SECTION */
+
+.teacher-section .section-title {
+  font-family: Italiana sans-serif;
+  font-size: larger;
+  font-weight: 300;
+  color: #afbdaf;
+}
+
+.teacher-section .section-title-desc {
+  font-size: 4rem;
+  font-family: "Tangerine", serif;
+  color: #b22222;
+}
+
+.teacher-section .row {
+  justify-content: center;
+}
+.teacher-section .row img {
+  border-radius: 50%;
+}
+
+.teacher-section .row h6 {
+  font-family: "Tangerine", serif;
+  color: #b22222;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.teacher-section .row p {
+  font-family: Italiana sans-serif;
+  color: #afbdaf;
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width:600px) {
+  .teacher-section img{
+    width: auto;
+    height: 150px;
+    /* display: flex; */
+    /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* footer section */
+
+.footer-section {
+  background-color: #b22222;
+  width: 100%;
+  line-height: 1;
+  padding-bottom: 30px;
+
+  color: #ffffff;
+}
+.footer-section i {
+  margin: 7px;
+  font-size: 20px;
+}
+.footer-section #footerRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-header {
+  font-family: "Homenaje", serif;
+  font-size: 2rem;
+}
+
+.footer-section p {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+
+.quick-links a{
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 2.5;
+  font-size: larger;
+}
+
+.quick-links a:hover{
+  text-decoration: none ;
+ color: antiquewhite;
+}
+
+
+
+.get-in-touch{
+  line-height: 2;
+}
+
+.get-in-touch .main{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.get-in-touch btn{
+  color: #ffffff;
+}
+
+
